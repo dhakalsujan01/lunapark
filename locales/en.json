@@ -1,0 +1,896 @@
+{
+  "nav": {
+    "home": "Home",
+    "attractions": "Attractions & Tickets", 
+    "tickets": "Tickets",
+    "safety": "Safety",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "signout": "Sign Out"
+  },
+  "home": {
+    "hero": {
+      "title": "Experience The Thrill of Luna Park",
+      "subtitle": "Where Magic Happens Every Day",
+      "description": "Unforgettable rides and magical moments await the whole family at our world-class amusement park.",
+      "cta": "Plan Your Visit",
+      "learnMore": "Explore Attractions"
+    },
+    "stats": {
+      "rides": "20+ Rides",
+      "visitors": "Happy Visitors",
+      "years": "Years of Fun",
+      "awards": "Safety Awards",
+      "trusted": "Trusted by over 50,000 families annually",
+      "instant": "Instant Access",
+      "safe": "100% Safe",
+      "allAges": "All Ages",
+      "rated": "#1 Rated",
+      "tech": "Tech Enabled"
+    },
+    "features": {
+      "title": "Why Choose Luna Park?",
+      "subtitle": "Discover what makes us the premier destination for unforgettable family experiences and thrilling adventures.",
+      "cta": "Get Your Tickets Today",
+      "thrilling": {
+        "title": "Thrilling Attractions",
+        "description": "Experience 20+ world-class rides from gentle family attractions to heart-pounding roller coasters."
+      },
+      "ticketing": {
+        "title": "Digital Ticketing",
+        "description": "Skip the lines with instant digital tickets and QR code entry for seamless park access."
+      },
+      "safety": {
+        "title": "Safety Standards",
+        "description": "Industry-leading safety protocols with daily inspections and certified ride operators."
+      },
+      "family": {
+        "title": "Family Experience", 
+        "description": "Something for everyone with attractions designed for all ages and comfort levels."
+      },
+      "award": {
+        "title": "Award Winning",
+        "description": "Recognized as the region's #1 amusement park for exceptional visitor experience."
+      },
+      "tech": {
+        "title": "Smart Technology",
+        "description": "Mobile app with interactive maps, wait times, and digital food ordering capabilities."
+      }
+    },
+    "highlights": {
+      "open": "Open 365 Days",
+      "yearRound": "Year Round",
+      "location": "Prime Location",
+      "cityCenter": "City Center",
+      "rating": "Guest Rating",
+      "ratingValue": "4.8/5"
+    },
+    "whyChoose": {
+      "image": {
+        "alt": "Exciting attractions at Luna Park"
+      },
+      "logo": "Luna Park ✨",
+      "title": {
+        "highlight": "The Ultimate",
+        "main": "Family Adventure."
+      },
+      "subtitle": "Discover why generations of families choose us for unforgettable memories, world-class entertainment, and endless fun.",
+      "features": {
+        "rides": "Over 40 Thrilling Rides",
+        "views": "Stunning Waterfront Views",
+        "shows": "Spectacular Live Shows"
+      },
+      "cta": "Explore Attractions",
+      "visitors": {
+        "visitor1": "Visitor 1",
+        "visitor2": "Visitor 2",
+        "annual": "Happy Visitors Annually"
+      }
+    },
+    "parkInfo": {
+      "badge": "Plan Your Perfect Day",
+      "title": "Your Adventure Awaits",
+      "titleHighlight": "at Luna Park",
+      "subtitle": "Everything you need to know to plan an unforgettable visit, from hours and location to what makes us the region's top-rated destination.",
+      "stats": {
+        "attractions": "World-Class Attractions",
+        "rating": "Guest Rating",
+        "years": "Years of Fun",
+        "days": "Days Open Annually"
+      },
+      "location": {
+        "label": "Location",
+        "value": "123 Fun Street, Entertainment City"
+      },
+      "hours": {
+        "label": "Operating Hours",
+        "value": "9:00 AM - 11:00 PM Daily"
+      },
+      "visitors": {
+        "label": "Annual Visitors",
+        "value": "Over 2 Million Guests"
+      },
+      "cta": {
+        "tickets": "Buy Tickets",
+        "directions": "Get Directions"
+      },
+      "image": {
+        "alt": "The grand entrance gate of Luna Park on a sunny day"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "Everything you need to know about visiting our amusement park",
+      "hours": {
+        "question": "What are the park hours?",
+        "answer": "We're open daily from 10:00 AM to 10:00 PM during peak season (June-August), and 10:00 AM to 8:00 PM during off-season. Hours may vary on holidays, so please check our website before your visit."
+      },
+      "cost": {
+        "question": "How much does admission cost?",
+        "answer": "General admission is €49.99 for adults and €39.99 for children under 12. Seniors (65+) get a discounted rate of €44.99. Season passes and group discounts are also available. Parking is included with admission."
+      },
+      "height": {
+        "question": "Are there height restrictions on rides?",
+        "answer": "Yes, safety is our top priority. Height restrictions vary by ride, ranging from 36 inches to 54 inches. Children under the minimum height can enjoy our kiddie rides and family-friendly attractions. Height measurement stations are located at each ride entrance."
+      },
+      "food": {
+        "question": "Can I bring my own food and drinks?",
+        "answer": "Outside food and beverages are not permitted in the park, with the exception of baby food, formula, and special dietary needs with proper documentation. We have numerous dining options throughout the park to satisfy every craving."
+      },
+      "accessibility": {
+        "question": "Is the park wheelchair accessible?",
+        "answer": "Our park is fully wheelchair accessible with paved pathways, accessible restrooms, and wheelchair-friendly rides. We also offer wheelchair rentals at the main entrance for €15 per day."
+      },
+      "rain": {
+        "question": "What should I do if it rains?",
+        "answer": "Many of our attractions operate rain or shine! We have covered areas, indoor attractions, and gift shops to keep you entertained. If severe weather occurs, some outdoor rides may temporarily close for safety reasons."
+      },
+      "fastpass": {
+        "question": "Do you offer fast pass or skip-the-line options?",
+        "answer": "Yes! Our Express Pass allows you to skip regular lines on participating rides. Express Passes are €29.99 per person and can be purchased at the gate or online. VIP packages with additional perks are also available."
+      },
+      "storage": {
+        "question": "Where can I store my belongings?",
+        "answer": "Lockers are available throughout the park for €8-12 per day depending on size. Free cubbies are provided at select high-thrill rides. We recommend bringing only essentials and leaving valuables in your car or hotel."
+      }
+    },
+    "gallery": {
+      "title": "Image Gallery",
+      "left": "Scroll left",
+      "right": "Scroll right",
+      "aerial": "Amusement Park Aerial View",
+      "entrance": "Amusement Park Entrance Gate",
+      "sunsetPark": "Colorful Amusement Park at Sunset",
+      "coaster": "Thrilling Roller Coaster",
+      "ferris": "Ferris Wheel at Sunset",
+      "carousel": "Colorful Carousel",
+      "rapids": "Family Water Rapids",
+      "tech": "Amusement Park Technology",
+      "darkCoaster": "Dark Dragon Coaster",
+      "waterPark": "Colorful Water Park",
+      "thunder": "Roller Coaster Thunder Mountain",
+      "kids": "Kids Playing Carnival Games"
+    },
+    "scroll": {
+      "title": "Discover Our",
+      "highlight": "Amazing Attractions",
+      "subtitle": "From heart-pounding roller coasters to family-friendly rides, explore all the thrilling experiences waiting for you at our amusement park.",
+      "cards": {
+        "coaster": {
+          "title": "🎢 Thrilling Roller Coasters",
+          "description": "Experience heart-pounding excitement on our world-class roller coasters! From gravity-defying loops to breathtaking drops, feel the rush of adrenaline as you soar through twists and turns at incredible speeds. Perfect for thrill-seekers and adventure lovers!",
+          "overlayTitle": "Thunder Mountain Express",
+          "overlayDetail": "Max Speed: 65 mph"
+        },
+        "ferris": {
+          "title": "🎡 Giant Ferris Wheel",
+          "description": "Take in breathtaking panoramic views from 200 feet above the park! Our iconic Ferris wheel offers a peaceful escape with stunning vistas of the entire amusement park and surrounding landscape. Perfect for families and romantic moments under the stars.",
+          "overlayTitle": "Sky View Wonder",
+          "overlayDetail": "Height: 200 feet"
+        },
+        "splash": {
+          "title": "🌊 Splash Zone Water Rides",
+          "description": "Cool off and make a splash on our exciting water attractions! From lazy rivers to thrilling water slides and splash pads, beat the heat while having endless fun. Don't forget to bring a change of clothes - you're guaranteed to get soaked!",
+          "overlayTitle": "Aqua Adventure",
+          "overlayDetail": "Prepare to get wet!"
+        },
+        "haunted": {
+          "title": "👻 Haunted House Experience",
+          "description": "Dare to enter our spine-chilling haunted mansion filled with ghosts, ghouls, and surprises around every corner! Navigate through dark corridors, creaky floors, and mysterious rooms. Are you brave enough to make it through to the end?",
+          "overlayTitle": "Phantom Manor",
+          "overlayDetail": "Enter if you dare..."
+        },
+        "bumper": {
+          "title": "🚗 Bumper Car Madness",
+          "description": "Bump, crash, and laugh your way around our electrifying bumper car arena! Perfect for all ages, challenge your friends and family to see who can avoid the most collisions. It's pure fun and friendly competition in a safe, controlled environment.",
+          "overlayTitle": "Crash Course Arena",
+          "overlayDetail": "Family fun for all ages"
+        }
+      }
+    },
+    "secondWhy": {
+      "imageAlt": "Exciting roller coaster at Luna Park",
+      "headlineLine1": "IT'S ABOUT",
+      "headlineLine2": "FAMILY FUN",
+      "p1": "32 Family-friendly rides! High-energy entertainment! Delicious food and treats! All in a beautiful park setting just minutes from Entertainment City.",
+      "p2": "Create lasting memories with thrilling attractions, live shows, and activities perfect for all ages. From gentle rides for little ones to heart-pounding roller coasters for thrill-seekers.",
+      "p3": "Experience the magic of Luna Park, where adventure meets family tradition.",
+      "cta": "Plan Your Visit",
+      "badge": "Award Winning"
+    },
+    "carousel": {
+      "noImages": "No images to display",
+      "prev": "Previous slide",
+      "next": "Next slide",
+      "pause": "Pause autoplay",
+      "play": "Start autoplay",
+      "goto": "Go to slide {index}"
+    }
+  },
+  "attractionsPage": {
+    "hero": {
+      "title": "Discover Your Next Adventure",
+      "subtitle": "Explore our world-class rides and value-packed deals. Unforgettable thrills await!",
+      "cta": "Explore Now"
+    },
+    "tabs": {
+      "individualRides": "Individual Rides",
+      "valuePackages": "Value Packages"
+    },
+    "loading": {
+      "title": "Loading Attractions",
+      "subtitle": "Discovering amazing experiences for you..."
+    },
+    "noAttractions": {
+      "title": "No Attractions Available",
+      "subtitle": "We're updating our attractions with exciting new experiences. Please check back soon!"
+    },
+    "noPackages": {
+      "title": "No Packages Available",
+      "subtitle": "We're crafting amazing package deals for you. Check back soon for incredible savings!"
+    },
+    "search": {
+      "placeholder": "Search attractions by name, description, or category...",
+      "results": "Showing {start}-{end} of {total} attractions"
+    },
+    "thrillLevels": {
+      "gentle": "Gentle",
+      "family": "Family",
+      "moderate": "Moderate",
+      "thrilling": "Thrilling",
+      "extreme": "Extreme",
+      "unknown": "Unknown"
+    },
+    "labels": {
+      "duration": "Duration",
+      "capacity": "Capacity",
+      "details": "Details",
+      "viewDetails": "View Details",
+      "buyTicket": "Buy Ticket",
+      "buyPackage": "Buy Package",
+      "daysValidity": "days validity",
+      "validOnSelectedDate": "Valid on selected date",
+      "includesRides": "Includes {count} Premium Rides",
+      "more": "more",
+      "save": "SAVE {percent}%",
+      "clearSearch": "Clear Search",
+      "noMatching": "No Matching Attractions",
+      "noMatchingSubtitle": "We couldn't find any attractions matching your search. Try adjusting your search terms."
+    },
+    "features": {
+      "minuteRide": "{duration} minute ride",
+      "capacityRiders": "Capacity: {capacity} riders",
+      "thrillLevel": "{level} thrill level"
+    }
+  },
+  "attractions": {
+    "title": "Our Attractions",
+    "subtitle": "Thrilling rides and fun experiences for everyone",
+    "filters": {
+      "all": "All Rides",
+      "family": "Family Friendly",
+      "thrill": "Thrill Rides",
+      "kids": "Kids Rides"
+    },
+    "details": {
+      "height": "Height Requirement",
+      "duration": "Duration",
+      "capacity": "Capacity",
+      "age": "Age Recommendation"
+    }
+  },
+  "tickets": {
+    "title": "Tickets & Packages",
+    "subtitle": "Choose the perfect package for your visit",
+    "individual": "Individual Rides",
+    "packages": "Value Packages",
+    "purchase": "Purchase",
+    "from": "From",
+    "includes": "Includes",
+    "validity": "Valid for {days} days"
+  },
+  "safety": {
+    "title": "Safety Guidelines",
+    "subtitle": "Your safety is our top priority",
+    "guidelines": {
+      "title": "General Guidelines",
+      "height": "Follow all height requirements",
+      "supervision": "Children must be supervised",
+      "health": "Do not ride if you have health conditions",
+      "instructions": "Follow all ride instructions"
+    },
+    "emergency": {
+      "title": "Emergency Information",
+      "phone": "Emergency Phone",
+      "medical": "Medical Center",
+      "location": "Near Main Entrance"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset"
+  },
+  "footer": {
+    "description": "Luna Amusement Park - Creating magical memories since 1995",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "accessibility": "Accessibility",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest news, events, and special offers.",
+      "placeholder": "Enter your email"
+    },
+    "sections": {
+      "parkInfo": {
+        "title": "Park Info",
+        "about": "About Luna Park",
+        "map": "Park Map",
+        "hours": "Operating Hours",
+        "directions": "Directions",
+        "accessibility": "Accessibility"
+      },
+      "attractions": {
+        "title": "Attractions",
+        "allRides": "All Rides",
+        "thrillRides": "Thrill Rides",
+        "familyRides": "Family Rides",
+        "waterRides": "Water Rides",
+        "shows": "Shows & Events"
+      },
+      "attractionsPage": {
+        "hero": {
+          "title": "Discover Your Next Adventure",
+          "subtitle": "Explore our world-class rides and value-packed deals. Unforgettable thrills await!",
+          "cta": "Explore Now"
+        },
+        "tabs": {
+          "individualRides": "Individual Rides",
+          "valuePackages": "Value Packages"
+        },
+        "loading": {
+          "title": "Loading Attractions",
+          "subtitle": "Discovering amazing experiences for you..."
+        },
+        "noAttractions": {
+          "title": "No Attractions Available",
+          "subtitle": "We're updating our attractions with exciting new experiences. Please check back soon!"
+        },
+        "noPackages": {
+          "title": "No Packages Available",
+          "subtitle": "We're crafting amazing package deals for you. Check back soon for incredible savings!"
+        },
+        "search": {
+          "placeholder": "Search attractions by name, description, or category...",
+          "results": "Showing {start}-{end} of {total} attractions"
+        },
+        "thrillLevels": {
+          "gentle": "Gentle",
+          "family": "Family",
+          "moderate": "Moderate",
+          "thrilling": "Thrilling",
+          "extreme": "Extreme",
+          "unknown": "Unknown"
+        },
+        "labels": {
+          "duration": "Duration",
+          "capacity": "Capacity",
+          "details": "Details",
+          "viewDetails": "View Details",
+          "buyTicket": "Buy Ticket",
+          "buyPackage": "Buy Package",
+          "daysValidity": "days validity",
+          "includesRides": "Includes {count} Premium Rides",
+          "more": "more",
+          "save": "SAVE {percent}%",
+          "clearSearch": "Clear Search",
+          "noMatching": "No Matching Attractions",
+          "noMatchingSubtitle": "We couldn't find any attractions matching your search. Try adjusting your search terms."
+        },
+        "features": {
+          "minuteRide": "{duration} minute ride",
+          "capacityRiders": "Capacity: {capacity} riders",
+          "thrillLevel": "{level} thrill level"
+        }
+      },
+      "tickets": {
+        "title": "Tickets & Passes",
+        "dayPasses": "Day Passes",
+        "seasonPasses": "Season Passes",
+        "groupRates": "Group Rates",
+        "vipExperiences": "VIP Experiences",
+        "giftCards": "Gift Cards"
+      }
+    }
+  },
+  "gallery": {
+    "metadata": {
+      "title": "Gallery & Media - Adventure Park",
+      "description": "Explore photos and videos from Adventure Park. See the excitement, thrills, and magical moments that await you at our premier amusement park.",
+      "keywords": "park photos, attraction videos, gallery, media, park experiences, ride photos, family memories"
+    },
+    "hero": {
+      "title": "Park Memories",
+      "description": "Explore the thrills, laughter, and magical moments captured forever. Your adventure awaits in every photo and video.",
+      "viewPhotos": "View Photos",
+      "watchVideos": "Watch Videos"
+    },
+    "photoGallery": {
+      "title": "Photo Gallery",
+      "description": "Browse through our collection of stunning photos showcasing the excitement and magic of Adventure Park.",
+      "filters": {
+        "all": "All",
+        "rides": "Rides",
+        "familyFun": "Family Fun",
+        "waterPark": "Water Park",
+        "events": "Events",
+        "foodDining": "Food & Dining"
+      },
+      "photos": {
+        "thunderMountain": {
+          "title": "Thunder Mountain",
+          "description": "Experience the ultimate thrill on our signature coaster"
+        },
+        "familyRapids": {
+          "title": "Family Rapids Adventure",
+          "description": "Perfect water fun for the whole family"
+        },
+        "skySoarer": {
+          "title": "Sky Soarer at Sunset",
+          "description": "Breathtaking views from our giant ferris wheel"
+        },
+        "splashZone": {
+          "title": "Splash Zone Fun",
+          "description": "Interactive water playground for kids"
+        },
+        "carouselDreams": {
+          "title": "Carousel Dreams",
+          "description": "Classic carousel magic for all ages"
+        },
+        "dragonsLair": {
+          "title": "Dragon's Lair",
+          "description": "Brave the dragon in this thrilling dark ride"
+        }
+      }
+    },
+    "videoGallery": {
+      "title": "Video Gallery",
+      "description": "Watch exciting videos showcasing the thrills that await you at Adventure Park.",
+      "watchNow": "Watch Now",
+      "videos": {
+        "parkOverview": {
+          "title": "Adventure Park Overview",
+          "description": "A virtual tour of our amazing attractions.",
+          "category": "Park Tour"
+        },
+        "thunderMountainPOV": {
+          "title": "Thunder Mountain POV",
+          "description": "Experience our signature coaster from the rider's perspective.",
+          "category": "Ride POV"
+        },
+        "familyFunHighlights": {
+          "title": "Family Fun Highlights",
+          "description": "See families creating magical memories.",
+          "category": "Family"
+        },
+        "waterParkAdventures": {
+          "title": "Water Park Adventures",
+          "description": "Cool off at our exciting water attractions.",
+          "category": "Water Park"
+        }
+      }
+    },
+    "attractionsCarousel": {
+      "title": "Experience Our Attractions",
+      "description": "Discover the magic and excitement of our world-class amusement park attractions. Drag or click the cards to explore.",
+      "items": {
+        "thrillingRollerCoaster": {
+          "title": "Thrilling Roller Coaster",
+          "description": "Feel the adrenaline rush as you soar through loops and twists at breathtaking speeds. This ultimate thrill ride delivers heart-pounding excitement."
+        },
+        "ferrisWheelSunset": {
+          "title": "Ferris Wheel at Sunset",
+          "description": "Rise high above the park and enjoy panoramic views of the entire wonderland below. This gentle giant offers magical moments and stunning sunset vistas."
+        },
+        "colorfulCarouselHorses": {
+          "title": "Colorful Carousel Horses",
+          "description": "Step into a world of whimsy aboard beautifully painted horses that dance to classic melodies. This timeless attraction brings joy to visitors of all ages."
+        },
+        "waterRideSplashZone": {
+          "title": "Water Ride Splash Zone",
+          "description": "Make a splash on our thrilling water ride that promises refreshing fun. Cool off while experiencing the perfect blend of speed and splash."
+        },
+        "amusementParkAerialView": {
+          "title": "Amusement Park Aerial View",
+          "description": "Take in the breathtaking aerial perspective of our magnificent amusement park, showcasing the scale and beauty of this magical destination."
+        }
+      }
+    }
+  },
+  "about": {
+    "metadata": {
+      "title": "About Us - Adventure Park",
+      "description": "Learn about Adventure Park's history, mission, and the dedicated team that creates magical experiences for millions of visitors each year.",
+      "keywords": "park history, mission statement, team, awards, about adventure park, company information"
+    },
+    "team": {
+      "meetOurTeam": "MEET OUR TEAM",
+      "linkedIn": "LinkedIn",
+      "email": "Email",
+      "members": {
+        "sarahChen": {
+          "name": "Sarah Chen",
+          "position": "Park Director & CEO",
+          "quote": "Every day, we create magical moments that families will cherish forever. Our mission is to make joy accessible to everyone who walks through our gates.",
+          "background": [
+            "With over 15 years of experience in the entertainment industry, Sarah has transformed Luna Park from a local attraction into a world-class destination. Her vision combines cutting-edge technology with timeless family values.",
+            "Before joining Luna Park, Sarah served as Vice President of Operations at Disneyland Paris, where she oversaw the daily operations of one of Europe's most visited theme parks. She holds an MBA from Harvard Business School and a degree in Hospitality Management from Cornell University."
+          ]
+        },
+        "marcusRodriguez": {
+          "name": "Marcus Rodriguez",
+          "position": "Chief Operations Officer",
+          "quote": "Safety and guest satisfaction are our top priorities. Every decision we make is guided by these two fundamental principles.",
+          "background": [
+            "Marcus brings 20+ years of theme park operations experience, having worked at Universal Studios, Six Flags, and Cedar Fair. His expertise spans ride safety, guest services, and operational efficiency.",
+            "He's a certified safety inspector and has implemented industry-leading safety protocols that have earned Luna Park multiple safety awards. Marcus is passionate about training staff and ensuring every guest has a safe, memorable experience."
+          ]
+        },
+        "emilyWatson": {
+          "name": "Dr. Emily Watson",
+          "position": "Head of Engineering & Innovation",
+          "quote": "We're not just building rides; we're creating experiences that push the boundaries of what's possible in family entertainment.",
+          "background": [
+            "Dr. Watson holds a PhD in Mechanical Engineering from MIT and has designed over 25 major attractions worldwide. Her innovative approach combines engineering excellence with creative storytelling.",
+            "She leads our R&D department, developing next-generation ride technology that prioritizes both thrill and safety. Emily's work has been recognized with multiple industry awards, including the prestigious 'Innovator of the Year' from the International Association of Amusement Parks."
+          ]
+        },
+        "davidKim": {
+          "name": "David Kim",
+          "position": "Director of Guest Experience",
+          "quote": "Every interaction matters. We're not just providing entertainment; we're creating memories that last a lifetime.",
+          "background": [
+            "David has revolutionized guest experience at Luna Park through data-driven insights and personalized service. His background in hospitality management and psychology helps him understand what makes experiences truly memorable.",
+            "He's implemented innovative programs like our 'Memory Maker' initiative and 'Guest First' training program, which have resulted in a 95% guest satisfaction rating. David believes that exceptional service is the foundation of our success."
+          ]
+        }
+      }
+    },
+    "timeline": {
+      "title": "Our Journey Through Time",
+      "description": "Discover the milestones and achievements that have shaped our amusement park into the magical destination it is today.",
+      "entries": {
+        "2024": {
+          "content": "Built and launched Aceternity UI and Aceternity UI Pro from scratch."
+        },
+        "early2023": {
+          "content": "I usually run out of copy, but when I see content this big, I try to integrate lorem ipsum.",
+          "content2": "Lorem ipsum is for people who are too lazy to write copy. But we are not lazy, we are just efficient."
+        },
+        "changelog": {
+          "content": "Deployed 5 new components on Aceternity today"
+        }
+      }
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact Us - Adventure Park",
+      "description": "Get in touch with Adventure Park. Have questions about our attractions, planning a visit, or need customer support? Contact us today.",
+      "keywords": "contact, customer service, park information, visit planning, support, adventure park contact"
+    },
+    "form": {
+      "title": "Get in Touch",
+      "description": "Have questions about Luna Park? Planning a visit or event? Send us a message and we'll get back to you as soon as possible.",
+      "fields": {
+        "fullName": "Full Name",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "subject": "Subject",
+        "inquiryType": "Inquiry Type",
+        "message": "Message"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "emailAddress": "Enter your email address",
+        "phoneNumber": "Enter your phone number",
+        "subject": "Enter subject",
+        "message": "Tell us how we can help you..."
+      },
+      "inquiryTypes": {
+        "general": "General Information",
+        "groups": "Group Bookings",
+        "events": "Special Events",
+        "support": "Customer Support",
+        "media": "Media Inquiry"
+      },
+      "button": "Send Message",
+      "messages": {
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again."
+      }
+    },
+    "visitUs": {
+      "title": "Visit Us",
+      "address": "1000 Surf Avenue, Brooklyn, NY 11224",
+      "phone": "(718) 373-5862",
+      "email": "info@lunapark.com"
+    }
+  },
+  "navigation": {
+    "profile": {
+      "adminPanel": "Admin Panel",
+      "myDashboard": "My Dashboard",
+      "signOut": "Sign Out",
+      "signIn": "Sign In",
+      "getTickets": "Get Tickets"
+    }
+  },
+  "dashboard": {
+    "metadata": {
+      "title": "My Dashboard - Adventure Park",
+      "description": "Manage your tickets, view order history, and track your park visits at Adventure Park.",
+      "keywords": "dashboard, tickets, orders, user account, park visits, booking history"
+    },
+    "welcome": "Welcome back, {name}!",
+    "subtitle": "Manage your tickets and view your booking history",
+    "loading": "Loading your dashboard...",
+    "stats": {
+      "validTickets": "Valid Tickets",
+      "usedTickets": "Used Tickets", 
+      "totalOrders": "Total Orders",
+      "totalSpent": "Total Spent",
+      "readyToUse": "Ready to use",
+      "previouslyUsed": "Previously used",
+      "allTime": "All time",
+      "lifetimeValue": "Lifetime value"
+    },
+    "tabs": {
+      "myTickets": "My Tickets",
+      "orderHistory": "Order History"
+    },
+    "tickets": {
+      "searchPlaceholder": "Search tickets...",
+      "filterPlaceholder": "Filter by status",
+      "allStatus": "All Status",
+      "valid": "Valid",
+      "used": "Used",
+      "expired": "Expired",
+      "cancelled": "Cancelled",
+      "ticketsFound": "{count} ticket{plural} found",
+      "noTicketsYet": "No tickets yet",
+      "noTicketsMatch": "No tickets match your search",
+      "purchaseTickets": "Purchase tickets to see them here",
+      "adjustSearch": "Try adjusting your search or filter criteria",
+      "type": "Type",
+      "visitDate": "Visit Date",
+      "usage": "Usage",
+      "code": "Code",
+      "validUntil": "Valid Until",
+      "usedOn": "Used On",
+      "scannedAt": "Scanned at: {location}",
+      "viewQR": "View QR",
+      "pdf": "PDF",
+      "generating": "Generating...",
+      "refresh": "Refresh",
+      "ticketQRCode": "Ticket QR Code",
+      "ticketId": "Ticket ID",
+      "status": "Status",
+      "simpleCode": "Simple Code",
+      "item": "Item",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "page": "Page {current} of {total}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "orders": {
+      "searchPlaceholder": "Search orders...",
+      "filterPlaceholder": "Filter by status",
+      "allStatus": "All Status",
+      "paid": "Paid",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded",
+      "ordersFound": "{count} order{plural} found",
+      "noOrdersYet": "No orders yet",
+      "noOrdersMatch": "No orders match your search",
+      "orderHistory": "Your order history will appear here",
+      "adjustSearch": "Try adjusting your search or filter criteria",
+      "order": "Order #{id}",
+      "paidOn": "Paid on {date}",
+      "items": "Items:",
+      "page": "Page {current} of {total}",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "checker": {
+    "metadata": {
+      "title": "Ticket Checker Dashboard - Adventure Park",
+      "description": "Scan and validate visitor tickets at Adventure Park. Access the checker dashboard for staff and administrators.",
+      "keywords": "ticket checker, scan tickets, validate tickets, staff dashboard, QR scanner, ticket validation"
+    },
+    "title": "Ticket Checker Dashboard",
+    "subtitle": "Scan and validate visitor tickets",
+    "loading": "Loading...",
+    "accessDenied": "Access Denied",
+    "loginRequired": "You need to be logged in to access this page.",
+    "signInHere": "Sign in here",
+    "noPermission": "You don't have permission to access the checker dashboard.",
+    "adminCheckerOnly": "This page is only available to admin and checker roles.",
+    "returnHome": "Return to home",
+    "stats": {
+      "todayScans": "Today's Scans",
+      "successful": "Successful",
+      "failed": "Failed"
+    },
+    "scanner": {
+      "title": "Scan Ticket",
+      "locationLabel": "Scan Location (optional)",
+      "locationPlaceholder": "e.g., Thunder Mountain Entrance",
+      "startCamera": "Start Camera Scanner",
+      "or": "Or",
+      "qrCode": "QR Code",
+      "simpleCode": "Simple Code",
+      "simpleCodeLabel": "Simple Code Entry",
+      "simpleCodePlaceholder": "Enter code: LP-ABC123",
+      "simpleCodeFormat": "Format: LP-ABC123 (3 letters + 3 numbers)",
+      "manualQrLabel": "Manual QR Code Entry",
+      "manualQrPlaceholder": "Paste QR code data here",
+      "stopScanner": "Stop Scanner"
+    },
+    "scanResult": {
+      "customer": "Customer:",
+      "item": "Item:",
+      "type": "Type:",
+      "status": "Status:",
+      "remainingUses": "Remaining uses:",
+      "validUntil": "Valid until:",
+      "previouslyUsed": "Previously used:"
+    },
+    "history": {
+      "title": "Recent Scans",
+      "noScans": "No scans yet",
+      "valid": "Valid",
+      "failed": "Failed",
+      "item": "Item:",
+      "message": "Message:"
+    }
+  },
+  "booking": {
+    "success": {
+      "metadata": {
+        "title": "Booking Successful - Adventure Park",
+        "description": "Your payment was successful! View your tickets and booking details at Adventure Park.",
+        "keywords": "booking success, payment successful, tickets, adventure park, booking confirmation"
+      },
+      "loading": "Processing your order...",
+      "orderNotFound": "Order Not Found",
+      "orderNotFoundMessage": "We couldn't find your order details. Please check your email or contact support.",
+      "goToDashboard": "Go to Dashboard",
+      "paymentSuccessful": "Payment Successful!",
+      "thankYouMessage": "Thank you for your purchase. Your tickets are ready!",
+      "orderSummary": "Order Summary",
+      "orderId": "Order ID:",
+      "date": "Date:",
+      "customer": "Customer:",
+      "email": "Email:",
+      "itemsPurchased": "Items Purchased:",
+      "total": "Total:",
+      "yourTickets": "Your Tickets ({count})",
+      "ticketsSentToEmail": "Tickets Sent to Email",
+      "ticketsSentMessage": "Your tickets have been sent to {email}. You can also view them in your dashboard.",
+      "ticketDetails": "Ticket Details:",
+      "ticketNumber": "Ticket #{number}",
+      "type": "Type:",
+      "validUntil": "Valid until:",
+      "viewQR": "View QR",
+      "importantNotes": "Important Notes:",
+      "note1": "Save your tickets to your phone or print them out",
+      "note2": "Each ticket has a unique QR code - don't share screenshots",
+      "note3": "Tickets become invalid after first use at ride entrance",
+      "note4": "Check individual ticket validity dates",
+      "viewAllTickets": "View All Tickets",
+      "exploreAttractions": "Explore Attractions",
+      "printReceipt": "Print Receipt",
+      "needHelp": "Need Help?",
+      "helpMessage": "If you have any questions about your tickets or visit, contact our support team.",
+      "contactSupport": "Contact Support",
+      "safetyGuidelines": "Safety Guidelines"
+    },
+    "cancelled": {
+      "metadata": {
+        "title": "Payment Cancelled - Adventure Park",
+        "description": "Your payment was cancelled. No charges were made. Try again or contact support.",
+        "keywords": "payment cancelled, booking cancelled, no charges, try again, adventure park"
+      },
+      "paymentCancelled": "Payment Cancelled",
+      "cancelledMessage": "Your payment was cancelled and no charges were made.",
+      "whatHappened": "What happened?",
+      "explanation": "Your payment was cancelled. This could happen for several reasons:",
+      "reason1": "You clicked the back button or closed the payment window",
+      "reason2": "The payment session expired",
+      "reason3": "There was an issue with your payment method",
+      "reason4": "You chose to cancel the transaction",
+      "dontWorry": "Don't worry!",
+      "noChargesMessage": "No payment was processed and no charges were made to your account. Your cart items are still saved if you want to try again.",
+      "tryAgain": "Try Again - Return to Tickets",
+      "browseAttractions": "Browse Attractions",
+      "backToHome": "Back to Home",
+      "needHelp": "Need Help?",
+      "helpMessage": "If you're experiencing payment issues or need assistance, our support team is here to help.",
+      "contactSupport": "Contact Support"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account settings and preferences",
+    "accountInfo": "Account Information",
+    "accountInfoDesc": "Your basic account details",
+    "security": "Security",
+    "securityDesc": "Manage your account security",
+    "notifications": "Notifications",
+    "notificationsDesc": "Manage your notification preferences",
+    "notificationsComingSoon": "Notification settings coming soon...",
+    "changePassword": "Change Password",
+    "changePasswordDesc": "Update your account password. You'll need to enter your current password.",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "currentPasswordPlaceholder": "Enter your current password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "changePasswordButton": "Change Password",
+    "changing": "Changing...",
+    "passwordChangedSuccess": "Password changed successfully!",
+    "mustBeLoggedIn": "You must be logged in to access settings.",
+    "mustBeLoggedInToChangePassword": "You must be logged in to change your password.",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role"
+  }
+}

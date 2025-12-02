@@ -1,0 +1,54 @@
+🔥 Cursor Prompt: Add Multilingual Support (Next.js 15.2, App Router)
+
+I already have a full-stack working app built with Next.js 15.2 App Router.
+The app is complete and functional.
+
+Now I want to extend this existing app to support multilingual functionality (English + Russian) without breaking any of the current features.
+
+🎯 Approach to Follow
+
+Use App Router + Middleware + next-intl.
+
+Add clean locale-based routes: /en/... and /ru/....
+
+Provide server & client translations via JSON dictionaries.
+
+Ensure SEO-friendly localized URLs (Google must index /en/* and /ru/*).
+
+Implement automatic locale detection via Accept-Language headers in middleware.
+
+Support date, number, and pluralization formatting (important for Russian).
+
+📂 Integration Rules
+
+Do not break or restructure my existing app.
+
+Do not overwrite existing routes, layouts, or logic.
+
+Extend the current app/ folder with a [locale] segment for localization.
+
+Preserve all full-stack features (auth, APIs, DB, middleware, server actions, etc.).
+
+Reuse my current layout.tsx inside [locale]/layout.tsx by wrapping it with NextIntlClientProvider.
+
+All translations must live inside /locales (en.json, ru.json).
+
+Middleware must handle missing locale redirects safely.
+
+Default locale must be English.
+
+The setup must be scalable so more languages can be added later.
+
+🚨 Strict Rules for Cursor
+
+Always integrate i18n without disrupting existing code.
+
+Never remove or replace existing pages or logic.
+
+Always wrap existing layouts/providers instead of replacing them.
+
+Always keep routes SEO-friendly (/en/..., /ru/...).
+
+Always keep translations in /locales.
+
+Always use App Router (no Pages Router).

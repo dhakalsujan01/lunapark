@@ -1,0 +1,195 @@
+🎡 Amusement Park Website – Full Secure Build Prompt (v0)
+
+Stack:
+
+Next.js 15.5 (App Router)
+
+Tailwind CSS (latest)
+
+MongoDB (Mongoose models)
+
+NextAuth (roles: admin, checker, user)
+
+Stripe (checkout + webhook with signature verification)
+
+Multilingual (/locales/en, /locales/ru)
+
+🌍 Public Pages (No Login Required)
+
+Home → Hero with attractions, opening hours, park map, CTA
+
+Attractions → ~20 rides, photos, descriptions, restrictions, SEO fields
+
+Tickets & Prices → View all tickets/packages & promotions (checkout requires login)
+
+Safety Disclaimer → Legal/safety info
+
+Gallery / Media → Images, short-form videos, social share buttons (FB, IG, TikTok)
+
+About Us → Park history, mission, trust-building info
+
+Contact → Google Maps embed, inquiry form, call/email/social buttons
+
+🎟️ Booking & Ticket System (Login Required)
+
+User must login/signup (NextAuth) to buy tickets.
+
+Stripe checkout integration → only after verified payment via webhook signature tickets are issued.
+
+Each ticket = unique signed QR code.
+
+Ticket validation flow:
+
+Staff scans QR → API checks if valid → if valid, mark used → becomes invalid after scan.
+
+Tickets can be single-ride or package-based.
+
+Users can view their purchased tickets in dashboard.
+
+👥 Roles & Access
+
+User → signup/login, buy tickets, view their QR codes.
+
+Ticket Checker → QR scanner panel, validate tickets (mark used).
+
+Admin → full access to manage rides, packages, users, orders, SEO, settings.
+
+🛠️ Admin Panel Features
+🎡 Ride Management
+
+Add/edit/delete rides (title, desc, price, restrictions, SEO, photo).
+
+Toggle publish/unpublish rides.
+
+🎟️ Package Management
+
+Create/edit/delete ticket packages.
+
+Add rides to packages.
+
+Set package price, description, SEO.
+
+Toggle publish/unpublish.
+
+💳 Ticket & Order Management
+
+View all ticket purchases (user info, date, amount, status).
+
+Filter/search by user, date, payment status.
+
+View ticket details (QR, valid/used/expired).
+
+Manually invalidate/reissue tickets.
+
+Export orders/tickets (CSV/Excel).
+
+👤 User Management
+
+View/search all registered users.
+
+Assign/change user roles (admin/checker/user).
+
+Suspend/deactivate users.
+
+📊 Analytics / Reports
+
+Dashboard metrics: total rides, tickets sold, revenue, active vs used tickets.
+
+Charts (daily/weekly/monthly revenue, popular rides/packages).
+
+⚙️ Settings & SEO
+
+Manage park info (hours, contact, park map).
+
+Manage SEO (meta, sitemap, keywords).
+
+Manage translations (English/Russian in /locales).
+
+Manage cookie banner text.
+
+Configure social media links.
+
+🔐 Security & Logs
+
+Login activity logs (failed/success).
+
+Ticket scan logs (who/when validated).
+
+Stripe webhook logs (payment confirmation status).
+
+Alerts for failed/suspicious activity.
+
+📂 File Management (optional)
+
+Upload/manage images for rides/packages/gallery.
+
+Auto-optimize images.
+
+🔐 Security Rules
+
+All sensitive APIs protected with role-based middleware.
+
+Stripe webhook must verify signature header.
+
+Tickets only generated after verified Stripe event.
+
+Tickets invalid after first use.
+
+Forgot password flow with expiring tokens (hashed in DB).
+
+CSRF protection, input validation, rate limiting, secure cookies, env secrets.
+
+Passwords & tokens never stored in plaintext.
+
+🛠️ What v0 Should Generate
+
+Project scaffold with Next.js 15.5 + Tailwind.
+
+NextAuth config with roles (admin, checker, user).
+
+MongoDB models: User, Ride, Package, Order, Ticket.
+
+API routes (App Router) for rides, packages, tickets, orders, QR validation.
+
+Stripe checkout flow + secure webhook verification.
+
+Ticket generator (unique signed QR code) + validator API.
+
+Admin dashboard (sidebar navigation + CRUD UI for all above features).
+
+Public pages (Home, Attractions, Prices, Gallery, About, Contact).
+
+User dashboard (view tickets & QR codes).
+
+Ticket checker dashboard (scan QR & validate).
+
+Multilingual setup (/locales/en, /locales/ru).
+
+SEO, Analytics, GDPR cookie banner.
+
+Performance ready (image optimization, CDN, caching).
+
+👉 Instruction to v0:
+Build a production-grade Next.js + Tailwind amusement park website with:
+
+Public browsing (rides, packages, gallery, about, contact).
+
+Login-required ticket purchase (Stripe + webhook verification).
+
+Secure ticketing system (QR-based, invalid after use).
+
+Admin panel with CRUD rides/packages, ticket/order/user management, analytics, SEO, settings, logs.
+
+Role-based access (admin, checker, user).
+
+SEO, multilingual, GDPR, analytics, performance optimizations.
+
+⚡ This prompt covers everything end-to-end:
+
+Public site for visitors
+
+Secure checkout & QR ticketing
+
+Admin panel for full management
+
+Industry-level security
