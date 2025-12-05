@@ -71,18 +71,18 @@ export function Navigation() {
   const pathname = usePathname()
   const params = useParams()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  
+
   // Get current locale from params with better fallback
   const currentLocale = (params?.locale as string) || 'en'
-  
+
   // Skip rendering for static files
   if (pathname.match(/\.(jpg|jpeg|png|gif|svg|webp|ico|css|js|woff|woff2|ttf|eot)$/)) {
     return null
   }
-  
+
   // Get translations for profile popup
   const tProfile = useTranslations('navigation.profile')
-  
+
   // Helper function to create locale-aware links
   const createLocalizedLink = (path: string) => {
     if (path === "/") return `/${currentLocale}`
@@ -93,7 +93,7 @@ export function Navigation() {
   const navTranslations = {
     en: {
       home: "Home",
-      attractions: "Attractions & Tickets", 
+      attractions: "Attractions & Tickets",
       gallery: "Gallery",
       about: "About",
       contact: "Contact"
@@ -101,7 +101,7 @@ export function Navigation() {
     ru: {
       home: "Главная",
       attractions: "Аттракционы и билеты",
-      gallery: "Галерея", 
+      gallery: "Галерея",
       about: "О нас",
       contact: "Контакты"
     }
@@ -130,24 +130,24 @@ export function Navigation() {
         <NavBody>
           {/* Custom Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <img 
-              src="/logo.png" 
-              alt="Luna Park Logo" 
-              width={64} 
-              height={64} 
+            <img
+              src="/logo.png"
+              alt="Luna Park Logo"
+              width={64}
+              height={64}
               className="bg-transparent mix-blend-mode-multiply"
-              style={{ 
+              style={{
                 backgroundColor: 'transparent',
                 filter: 'contrast(1.1) brightness(1.05)'
               }}
             />
           </Link>
-          
+
           <NavItems items={localizedNavigationItems} />
-          
+
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
-            
+
             {session ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -166,7 +166,7 @@ export function Navigation() {
                     </div>
                   </DropdownMenuLabel>
                   <DropdownMenuSeparator />
-                  
+
                   <div className="space-y-2">
                     {(session.user as any)?.role === "admin" && (
                       <DropdownMenuItem asChild>
@@ -176,22 +176,22 @@ export function Navigation() {
                         </Link>
                       </DropdownMenuItem>
                     )}
-                    
+
                     <DropdownMenuItem asChild>
                       <Link href={createLocalizedLink("/dashboard")} className="flex items-center space-x-3">
                         <User className="h-4 w-4" />
                         <span>{tProfile('myDashboard')}</span>
                       </Link>
                     </DropdownMenuItem>
-                    
+
                     <DropdownMenuItem asChild>
                       <Link href={createLocalizedLink("/settings")} className="flex items-center space-x-3">
                         <Key className="h-4 w-4" />
                         <span>Settings</span>
                       </Link>
                     </DropdownMenuItem>
-                    
-                    <DropdownMenuItem 
+
+                    <DropdownMenuItem
                       onClick={() => signOut()}
                       className="text-red-600 focus:text-red-600"
                     >
@@ -220,13 +220,13 @@ export function Navigation() {
           <MobileNavHeader>
             {/* Custom Mobile Logo */}
             <Link href="/" className="flex items-center space-x-3">
-              <img 
-                src="/logo.png" 
-                alt="Luna Park Logo" 
-                width={56} 
-                height={56} 
+              <img
+                src="/logo.png"
+                alt="Luna Park Logo"
+                width={56}
+                height={56}
                 className="bg-transparent mix-blend-mode-multiply"
-                style={{ 
+                style={{
                   backgroundColor: 'transparent',
                   filter: 'contrast(1.1) brightness(1.05)'
                 }}
@@ -255,7 +255,7 @@ export function Navigation() {
                 <span className="block">{item.name}</span>
               </Link>
             ))}
-            
+
             <div className="border-t border-gray-200 pt-4 mt-4">
               <LanguageSwitcher />
             </div>
@@ -272,7 +272,7 @@ export function Navigation() {
                     <p className="text-sm text-gray-500">{session.user?.email}</p>
                   </div>
                 </div>
-                
+
                 <div className="space-y-2">
                   {(session.user as any)?.role === "admin" && (
                     <Link
@@ -284,7 +284,7 @@ export function Navigation() {
                       <span>{tProfile('adminPanel')}</span>
                     </Link>
                   )}
-                  
+
                   <Link
                     href={createLocalizedLink("/dashboard")}
                     onClick={() => setIsMobileMenuOpen(false)}
@@ -293,7 +293,7 @@ export function Navigation() {
                     <User className="h-4 w-4" />
                     <span>{tProfile('myDashboard')}</span>
                   </Link>
-                  
+
                   <Link
                     href={createLocalizedLink("/settings")}
                     onClick={() => setIsMobileMenuOpen(false)}
@@ -302,7 +302,7 @@ export function Navigation() {
                     <Key className="h-4 w-4" />
                     <span>Settings</span>
                   </Link>
-                  
+
                   <Button
                     variant="ghost"
                     onClick={() => {
