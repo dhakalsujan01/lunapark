@@ -45,6 +45,38 @@ async function getCheckoutSession(req: NextRequest, { params }: { params: Promis
       return NextResponse.json({ error: "Unauthorized" }, { status: 403 })
     }
 
+    // Very important: If session is paid but order is still pending, fulfill it synchronously
+    if (stripeSession.payment_status === "paid" && order.status === "pending") {
+      console.log("Session is paid but order is pending. Fulfilling synchronously...");
+      
+      // Prevent race conditions with atomic update
+      const updatedOrder = await Order.findOneAndUpdate(
+        { _id: order._id, status: "pending" },
+        {
+          status: "paid",
+          paymentIntentId: stripeSession.payment_intent as string,
+          paymentMethod: stripeSession.payment_method_types?.[0] || "card",
+          paidAt: new Date()
+        },
+        { new: true }
+      );
+
+      if (updatedOrder) {
+        console.log("Order marked as paid. Generating tickets...");
+        const { generateTicketsForOrder } = await import("@/lib/ticket-generator");
+        try {
+          await generateTicketsForOrder(order._id.toString());
+          // Refresh order to get the generated tickets
+          const refreshedOrder = await Order.findById(order._id).populate("tickets").lean();
+          if (refreshedOrder) {
+            Object.assign(order, refreshedOrder);
+          }
+        } catch (error) {
+          console.error("Failed to generate tickets synchronously:", error);
+        }
+      }
+    }
+
     return NextResponse.json({
       session: stripeSession,
       order: {

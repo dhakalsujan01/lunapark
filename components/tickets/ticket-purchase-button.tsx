@@ -174,7 +174,7 @@ export function TicketPurchaseButton({ tier, className }: TicketPurchaseButtonPr
         </motion.div>
       </DialogTrigger>
       
-      <DialogContent className="w-[95vw] max-w-md mx-4 sm:mx-auto">
+      <DialogContent className="w-[95vw] max-w-md mx-4 sm:mx-auto max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Purchase {tier.name}

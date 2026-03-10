@@ -25,7 +25,6 @@ function QrScanner({ onScan, isValidating = false }: QRScannerProps) {
       setError(null)
       const mediaStream = await navigator.mediaDevices.getUserMedia({
         video: { 
-          facingMode: "environment", // Use back camera on mobile
           width: { ideal: 640 },
           height: { ideal: 480 }
         },
